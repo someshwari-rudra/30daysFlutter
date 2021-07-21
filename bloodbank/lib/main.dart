@@ -1,4 +1,5 @@
-import 'package:bloodbank/pages/home_page.dart';
+// import 'package:bloodbank/pages/home_page.dart';
+import 'package:bloodbank/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       themeMode: ThemeMode.light,
       theme: ThemeData(primarySwatch: Colors.lightBlue),
-      home: homePage(),
+      home: loginPage(),
     );
   }
 }
