@@ -1,9 +1,16 @@
 import 'package:bloodbank/utils/routes.dart';
 import 'package:flutter/material.dart';
 
-class loginPage extends StatelessWidget {
+class loginPage extends StatefulWidget {
   const loginPage({Key? key}) : super(key: key);
 
+  @override
+  _loginPageState createState() => _loginPageState();
+}
+
+class _loginPageState extends State<loginPage> {
+  String name = "";
+  bool ChangeButton = false;
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -19,7 +26,7 @@ class loginPage extends StatelessWidget {
               height: 20.0,
             ),
             Text(
-              "welcome",
+              "welcome $name",
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             Padding(
@@ -32,6 +39,10 @@ class loginPage extends StatelessWidget {
                       hintText: "Enter User Name",
                       labelText: "User Name",
                     ),
+                    onChanged: (value) {
+                      name = value;
+                      setState(() {});
+                    },
                   ),
                   TextFormField(
                     obscureText: true,
@@ -43,16 +54,47 @@ class loginPage extends StatelessWidget {
                   SizedBox(
                     height: 40.0,
                   ),
-                  ElevatedButton(
-                    child: Text(
-                      "Login",
-                      style: TextStyle(fontSize: 18),
-                    ),
-                    style: TextButton.styleFrom(minimumSize: Size(130, 40)),
-                    onPressed: () {
+                  InkWell(
+                    onTap: () async {
+                      setState(() {
+                        ChangeButton = true;
+                      });
+                      await Future.delayed(Duration(seconds: 1));
                       Navigator.pushNamed(context, MYRoutes.homeRoute);
                     },
+                    child: AnimatedContainer(
+                      duration: Duration(seconds: 1),
+                      height: 50,
+                      width: ChangeButton ? 50 : 150,
+                      alignment: Alignment.center,
+                      child: ChangeButton
+                          ? Icon(
+                              Icons.done,
+                              color: Colors.white,
+                            )
+                          : Text(
+                              "Login",
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 18),
+                            ),
+                      decoration: BoxDecoration(
+                          color: Colors.deepPurple,
+                          borderRadius:
+                              BorderRadius.circular(ChangeButton ? 50 : 20)),
+                    ),
                   )
+                  // ElevatedButton(
+                  //   child: Text(
+                  //     "Login",
+                  //     style: TextStyle(fontSize: 18),
+                  //   ),
+                  //   style: TextButton.styleFrom(minimumSize: Size(130, 40)),
+                  //   onPressed: () {
+                  //     Navigator.pushNamed(context, MYRoutes.homeRoute);
+                  //   },
+                  // )
                 ],
               ),
             )
