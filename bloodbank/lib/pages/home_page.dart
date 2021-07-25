@@ -1,3 +1,4 @@
+import 'package:bloodbank/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 
 class homePage extends StatelessWidget {
@@ -14,6 +15,7 @@ class homePage extends StatelessWidget {
             child: Text("welcome to 30 days of flutter"),
           ),
         ),
+        drawer: MyDrawer(),
     );
   }
 }

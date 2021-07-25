@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.deepPurple,
           fontFamily: GoogleFonts.lato().fontFamily),
       home: loginPage(),
+      initialRoute: MYRoutes.homeRoute,
       routes: {MYRoutes.homeRoute: (context) => homePage()},
     );
   }
