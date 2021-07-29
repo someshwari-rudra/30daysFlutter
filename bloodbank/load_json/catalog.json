@@ -1,0 +1,68 @@
+{
+    "products": [
+        {
+            "id": "somya1",
+            "name": "iphone 12 pro",
+            "desc":"Apple iPhone 12 Pro Max pictures · Released 2020, November 13 · 228g, 7.4mm thickness · iOS 14.1, up to iOS 14.7 · 128GB/256GB/512GB storage",
+            "price": 9999,
+            "color": "#33505a",
+            "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-12-pro-r1.jpg"
+        },
+        {
+            "id": "somya2",
+            "name": "iphone 6",
+            "desc":"Apple iPhone 12 Pro Max pictures · Released 2020, November 13 · 228g, 7.4mm thickness · iOS 14.1, up to iOS 14.7 · 128GB/256GB/512GB storage",
+            "price": 9999,
+            "color": "#ff7979",
+            "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-12-pro-r1.jpg"
+        },
+        {
+            "id": "somya3",
+            "name": "Redmi note 7",
+            "desc":"Apple iPhone 12 Pro Max pictures · Released 2020, November 13 · 228g, 7.4mm thickness · iOS 14.1, up to iOS 14.7 · 128GB/256GB/512GB storage",
+            "price": 9999,
+            "color": "#ffbe76",
+            "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-12-pro-r1.jpg"
+        },
+        {
+            "id": "somya4",
+            "name": "redmi naote 8",
+            "desc":"Apple iPhone 12 Pro Max pictures · Released 2020, November 13 · 228g, 7.4mm thickness · iOS 14.1, up to iOS 14.7 · 128GB/256GB/512GB storage",
+            "price": 9999,
+            "color": "#f0932b",
+            "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-12-pro-r1.jpg"
+        },
+        {
+            "id": "somya5",
+            "name": "iphone x pro",
+            "desc":"Apple iPhone 12 Pro Max pictures · Released 2020, November 13 · 228g, 7.4mm thickness · iOS 14.1, up to iOS 14.7 · 128GB/256GB/512GB storage",
+            "price": 9999,
+            "color": "#95afc0",
+            "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-12-pro-r1.jpg"
+        },
+        {
+            "id": "somya6",
+            "name": "samusang Galaxy s21 Ultra 2021 edition",
+            "desc":"Apple iPhone 12 Pro Max pictures · Released 2020, November 13 · 228g, 7.4mm thickness · iOS 14.1, up to iOS 14.7 · 128GB/256GB/512GB storage",
+            "price": 9999,
+            "color": "#33505a",
+            "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-12-pro-r1.jpg"
+        },
+        {
+            "id": "somya7",
+            "name": "Samsung Galaxy s21 2021 edition",
+            "desc":"Apple iPhone 12 Pro Max pictures · Released 2020, November 13 · 228g, 7.4mm thickness · iOS 14.1, up to iOS 14.7 · 128GB/256GB/512GB storage",
+            "price": 9999,
+            "color": "#30336b",
+            "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-12-pro-r1.jpg"
+        },
+        {
+            "id": "somya8",
+            "name": "lenovo 5",
+            "desc":"Apple iPhone 12 Pro Max pictures · Released 2020, November 13 · 228g, 7.4mm thickness · iOS 14.1, up to iOS 14.7 · 128GB/256GB/512GB storage",
+            "price": 9999,
+            "color": "#70a1ff",
+            "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-12-pro-r1.jpg"
+        }
+    ]
+}
